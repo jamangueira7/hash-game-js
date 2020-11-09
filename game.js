@@ -31,6 +31,11 @@ function CPUPlaying() {
         }
         updateBoard();
         whoPlays=0;
+        if(playMoves == 9 && verify == ""){
+            console.log(`------------------------------------------------`);
+            console.log(`JOGO TERMINOU EMPATADO`);
+            alert(`Empate!`);
+        }
     }
 }
 
