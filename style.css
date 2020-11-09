@@ -15,8 +15,14 @@ body {
 #container {
 
     flex-direction: column;
-    width: 370px;
+    width: 450px;
     height: 600px;
+    margin: 50px;
+    border: 2px solid;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #dvmenu {
@@ -29,13 +35,14 @@ body {
 #dvjogo {
     width: 360px;
     height: 360px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
 
 }
 
-.posJogo {
+.posicaoJogo {
     width: 120px;
     height: 120px;
     margin: 0;

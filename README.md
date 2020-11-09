@@ -26,6 +26,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Jogo da velha com 3 niveis de dificuldades.
 
+Nivel 1: Jogadas aleatórias.
+Nivel 2: A CPU vai jogar tentando ganhar.
+Nivel 3: A CPU vai jogar tentando evitar que você ganhe.
+
+<p align="center">
+  <img alt="debug" src=".github/debug.PNG" width="100%">
+</p>
+
 <p align="center">
   <img alt="codigo" src=".github/codigo.PNG" width="100%">
 </p>
