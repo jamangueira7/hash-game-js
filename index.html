@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="container">
+        <div id="dvmenu">
+            <div id="dvWhoStart">Quem Inicia:</div>
+
+            <div id="buttons">
+                <button onclick="start()" class="button">Iniciar Jogo</button>
+                <button onclick="start()" class="button">Mudar Nivel</button>
+            </div>
+        </div>
+        <div id="dvjogo">
+            <div id="p1" class="posJogo" onclick="play(1)"></div>
+            <div id="p2" class="posJogo" onclick="play(2)"></div>
+            <div id="p3" class="posJogo" onclick="play(3)"></div>
+            <div id="p4" class="posJogo" onclick="play(4)"></div>
+            <div id="p5" class="posJogo" onclick="play(5)"></div>
+            <div id="p6" class="posJogo" onclick="play(6)"></div>
+            <div id="p7" class="posJogo" onclick="play(7)"></div>
+            <div id="p8" class="posJogo" onclick="play(8)"></div>
+            <div id="p9" class="posJogo" onclick="play(9)"></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
